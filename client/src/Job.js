@@ -1,11 +1,10 @@
 import React from 'react'
 
-export default function Job({job}){
+export default function Job({job}) {
     return (
         <div className = {'job'}>
-            {job.title}
+            {job.title} 
             {job.company}
         </div>
     )
 }
-
